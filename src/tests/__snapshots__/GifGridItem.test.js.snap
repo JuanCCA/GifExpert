@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing GifGridItems Should create component correctly 1`] = `
+<div
+  className="card animate__animated animate__fadeInLeftBig"
+>
+  <img
+    alt="Titulo de prueba"
+    src="https://api.bimi.com/aklsfk"
+  />
+  <p>
+    Titulo de prueba
+  </p>
+</div>
+`;
