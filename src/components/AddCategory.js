@@ -16,15 +16,15 @@ export const AddCategory = ({setCategories}) => {
         if(inputValue.trim().length > 0){
             setCategories( (categ) => [inputValue,...categ]);
             setInputValue('')
-        } else {
-            
-            alert("Eres tonto o k niño, escribe algo")
-        }
+        } 
         
     }
     
     return (
+
+
         <form onSubmit={ handleSubmit }>
+            <p>{inputValue}</p>
             <input
                 type="text"
                 value={inputValue} 
